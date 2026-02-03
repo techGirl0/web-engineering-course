@@ -43,39 +43,41 @@
 
     <h2>Contact Me</h2>
 
-    <form action="#" method="post">
+    <form action="#" method="post" novalidate>
 
-        <label for="fullName">Full Name:</label><br>
-        <input type="text" id="fullName" name="fullName" required><br><br>
+        <fieldset>
+            <legend>Contact Information</legend>
 
-        <label for="email">Email Address:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+            <label for="fullName">Full Name:</label><br>
+            <input type="text" id="fullName" name="fullName" required><br><br>
 
-        <label for="phone">Phone Number:</label><br>
-        <input type="tel" id="phone" name="phone"><br><br>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
 
-        <label>Gender:</label><br>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label><br>
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
 
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Male</label><br>
+            <label>Gender:</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
 
-        <input type="radio" id="other" name="gender" value="other">
-        <label for="other">Other</label><br><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
 
-        <label for="color">Favorite Color:</label><br>
-        <input type="color" id="color" name="favoriteColor"><br><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
 
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+            <label for="color">Favorite Color:</label><br>
+            <input type="color" id="color" name="favoriteColor"><br><br>
 
-        <input type="submit" value="Send Message">
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
 
+            <input type="submit" value="Send Message">
+
+        </fieldset>
 
     </form>
-
-
 
     <hr>
     <p>
