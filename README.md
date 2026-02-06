@@ -6,7 +6,7 @@ In this repository, I would like to **share previews of my hands-on activities**
 
 ##  About Me Page
 
-I developed a comprehensive **About Me** page to practice fundamental HTML concepts and advanced semantic layouts.
+As a course Assignment, I developed a **About Me** page to practice fundamental HTML concepts and advanced semantic layouts.
 
 **Technical Updates & Features:**
 * **Semantic HTML5 Structure:** Organized the page using `<header>`, `<nav>`, `<main>`, `<aside>`, and `<footer>` for improved accessibility and document flow.
