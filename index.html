@@ -10,113 +10,144 @@
 <body>
     <a id="top"></a>
 
-    <h1>About Me</h1>
-
-    <p><strong>Name:</strong> Sediqa Hadid, I prefer to call me Hadid :)</p>
-    <p><strong>Origin:</strong> Originally from Afghanistan, a land of history, culture, and towering mountains </p>
-    
-    <h2>Hobbies</h2>
-    <ul>
-        <li>Attending classes</li>
-        <li>Reading lecture notes</li>
-        <li>Doing assignments</li>
-    </ul>
-
-    <h2>Favorite Movies</h2>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Title</th>
-                <th>Director</th>
-                <th>Release Year</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Harry Potter and the Sorcerer's Stone</td>
-                <td>Chris Columbus</td>
-                <td>2001</td>
-            </tr>
-            <tr>
-                <td>Inside Out</td>
-                <td>Pete Docter</td>
-                <td rowspan="2">2015</td>
-            </tr>
-            <tr>
-                <td>Star Wars: The Force Awakens</td>
-                <td>J.J. Abrams</td>
-            </tr>
-            <tr>
-                <td>Zootopia</td>
-                <td>Byron Howard / Rich Moore</td>
-                <td>2016</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="3" align="center">My Favorite Films</td>
-            </tr>
-        </tfoot>
-    </table>
-
-    <h2>Favorite Books</h2>
-    <ul>
-        <li>
-            <a href="https://www.amazon.de/BECOMING-Meine-Geschichte-Michelle-Obama/dp/3442314879" target="_blank">
-                Becoming, Michelle Obama
-            </a>
-        </li>
-        <li>
-            <a href="https://www.amazon.de/-/en/Paulo-Coelho/dp/0062315005" target="_blank">
-                The Alchemist, Paulo Coelho
-            </a>
-        </li>
-        <li>
-            <a href="https://www.amazon.de/Atomic-Habits-Proven-Build-Break/dp/1847941834" target="_blank">
-                Atomic Habits, James Clear
-            </a>
-        </li>
-    </ul>
-
-    <h2>Contact Me</h2>
-
-    <form action="#" method="post" novalidate>
-        <fieldset>
-            <legend>Contact Information</legend>
-
-            <label for="fullName">Full Name:</label><br>
-            <input type="text" id="fullName" name="fullName" required><br><br>
-
-            <label for="email">Email Address:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
-
-            <label for="phone">Phone Number:</label><br>
-            <input type="tel" id="phone" name="phone"><br><br>
-
-            <label>Gender:</label><br>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label><br>
-
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label><br>
-
-            <input type="radio" id="other" name="gender" value="other">
-            <label for="other">Other</label><br><br>
-
-            <label for="color">Favorite Color:</label><br>
-            <input type="color" id="color" name="favoriteColor"><br><br>
-
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
-
-            <input type="submit" value="Send Message">
-        </fieldset>
-    </form>
+    <header>
+        <div id="logo">
+            <strong>TECH GIRL</strong> </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#books">Favorite Books</a></li>
+                <li><a href="#movies">Favorite Movies</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <hr>
-    <p>
-        <a href="#top">Back to Top</a>
-    </p>
+
+    <main>
+        <section id="about">
+            <h1>About Me</h1>
+            <p><strong>Name:</strong> Sediqa Hadid, I prefer to call me Hadid :)</p>
+            <p><strong>Origin:</strong> Originally from Afghanistan, a land of history, culture, and towering mountains </p>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Attending classes</li>
+                <li>Reading lecture notes</li>
+                <li>Doing assignments</li>
+            </ul>
+        </section>
+
+        <section id="movies">
+            <h2>Favorite Movies</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Director</th>
+                        <th>Release Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Harry Potter and the Sorcerer's Stone</td>
+                        <td>Chris Columbus</td>
+                        <td>2001</td>
+                    </tr>
+                    <tr>
+                        <td>Inside Out</td>
+                        <td>Pete Docter</td>
+                        <td rowspan="2">2015</td>
+                    </tr>
+                    <tr>
+                        <td>Star Wars: The Force Awakens</td>
+                        <td>J.J. Abrams</td>
+                    </tr>
+                    <tr>
+                        <td>Zootopia</td>
+                        <td>Byron Howard / Rich Moore</td>
+                        <td>2016</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" align="center">My Favorite Films</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section id="books">
+            <h2>Favorite Books</h2>
+            <ul>
+                <li>
+                    <a href="https://www.amazon.de/BECOMING-Meine-Geschichte-Michelle-Obama/dp/3442314879" target="_blank">
+                        Becoming, Michelle Obama
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.amazon.de/-/en/Paulo-Coelho/dp/0062315005" target="_blank">
+                        The Alchemist, Paulo Coelho
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.amazon.de/Atomic-Habits-Proven-Build-Break/dp/1847941834" target="_blank">
+                        Atomic Habits, James Clear
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post" novalidate>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="fullName">Full Name:</label><br>
+                    <input type="text" id="fullName" name="fullName" required><br><br>
+
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+                    <input type="submit" value="Send Message">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <aside>
+        <h3>Related Links</h3>
+        <p>Follow me on my journey:</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+            <li><a href="https://github.com/techGirl0/web-engineering-course">GitHub</a></li>
+        </ul>
+        <p><em>Check out my latest blog post on web development!</em></p>
+    </aside>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Hadid. All rights reserved.</p>
+        <p>
+            <a href="#top">Back to Top</a> | 
+            <a href="#">Privacy Policy</a> | 
+        </p>
+        <address>
+            Contact the author at <a href="sed.talibi.25@lehre.mosbach.dhbw.de">hadid@example.com</a>
+        </address>
+    </footer>
 
 </body>
+
 </html>
